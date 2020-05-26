@@ -1,0 +1,23 @@
+{
+  "name": "snowpack-react-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "babel-watch": "babel src --out-dir lib --watch",
+    "server-start": "live-server index.html",
+    "start": "concurrently \"npm:babel-watch\" \"npm:server-start\""
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "concurrently": "^5.2.0",
+    "live-server": "^1.2.1",
+    "snowpack": "^1.7.1"
+  },
+  "dependencies": {
+    "react": "npm:@reactesm/react",
+    "react-dom": "npm:@reactesm/react-dom"
+  }
+}
