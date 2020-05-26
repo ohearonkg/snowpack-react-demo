@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const App = () => <h1>Hello From Snowpack!</h1>;
+import App from "./App.js";
 
 ReactDOM.render(<App />, document.getElementById("app"));
