@@ -1,7 +1,7 @@
 # Snowpack React Demo
 
-This repository is a simple example of how to use the [snowpack build tool](https://www.snowpack.dev/)
-to build your react application without needing to bundle your source code!
+This repository is a simple example of how to use the [Snowpack](https://www.snowpack.dev/)
+build tool to build your react application without needing to bundle your source code!
 
 ## Installation Steps
 
